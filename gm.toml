@@ -10,7 +10,7 @@
 # Path to the `gaiad` (or other SDK-based) binary to use.
 # You can add a local path here or a ftp/http/https URL.
 # In the case of a URL, a local copy will be downloaded into a temporary folder within the GM folder.
-gaiad_binary="https://github.com/cosmos/gaia/releases/download/v5.0.5/gaiad-v5.0.5-linux-amd64"
+gaiad_binary="https://github.com/cosmos/gaia/releases/download/v9.0.0-rc6/gaiad-v9.0.0-rc6-linux-amd64"
 
 # The first free port to use for newly created nodes.
 # The value will be incremented (by 10) when a new node requires ports.
@@ -25,14 +25,14 @@ ports_start_at=27000
 home_dir="$HOME/.gm"
 
 # (Optional) The validator node's operator address will be created from this 24-word seed phrase instead of a random address.
-validator_mnemonic=""
+validator_mnemonic="kid glue nominee cost clean midnight step genre kid engage donate useful limit lazy love address elbow leg marine angry path hawk flag toss"
 
 # (Optional) The first wallet address (named "wallet") will be created from this 24-word seed phrase instead of a random address.
-wallet_mnemonic=""
+wallet_mnemonic="volcano ocean celery now credit comic orchard pet consider seek hold welcome seminar menu current fog paper student dress eight silent good ensure either"
 
 # (Optional) The number of extra wallets with random addresses to create.
 # These wallets will be funded and ready for developer use.
-extra_wallets=0
+extra_wallets=5
 
 # (Optional) The HD derivation path for network addresses.
 # This is automatically set on a chain but Hermes needs to be informed of it, if it is not the default.
