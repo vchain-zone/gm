@@ -47,7 +47,7 @@ chmod 755 /usr/local/bin/stoml
 ```
 2. Install `gm`
 ```bash
-git clone https://github.com/informal/gm
+git clone https://github.com/vchain-zone/gm
 gm/bin/gm install
 ```
 
