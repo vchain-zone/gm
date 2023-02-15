@@ -35,7 +35,7 @@ get_operating_system() {
 
 set_config_defaults() {
     OP_SYS="$(get_operating_system)"
-    GLOBAL_GAIAD_BINARY="$(which gaiad || echo "https://github.com/cosmos/gaia/releases/download/v5.0.6/gaiad-v5.0.6-${OP_SYS}-amd64")"
+    GLOBAL_GAIAD_BINARY="$(which gaiad || echo "https://github.com/cosmos/gaia/releases/download/v9.0.0-rc6/gaiad-v9.0.0-rc6-${OP_SYS}-amd64")"
     #GLOBAL_PORTS_START_AT is deliberately not exported because it is updated sometimes during execution
     DEFAULT_PORTS_START_AT=27000
     GLOBAL_HOME_DIR="${HOME}/.gm"
